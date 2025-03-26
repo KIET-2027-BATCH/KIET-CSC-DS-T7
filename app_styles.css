@@ -1,0 +1,85 @@
+body {
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Full viewport height */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; /* Prevent scrollbars */
+    background: linear-gradient(45deg, #ff5733, #33ff57, #3357ff, #ff33a1);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite; /* Animate the gradient */
+    position: relative; /* For positioning bubbles */
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+nav {
+    display: flex; /* Align navigation links in a row */
+    justify-content: center; /* Center the navigation links */
+    background-color: rgba(255, 255, 255, 0.8); /* Background for nav */
+    padding: 10px; /* Padding around nav */
+    border-radius: 10px; /* Rounded corners */
+    position: absolute; /* Position it at the top */
+    top: 20px; /* Align to the top with some space */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Display items in a row */
+}
+
+nav li {
+    margin: 0 15px; /* Space between links */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Link color */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+nav a:hover {
+    color: #ff5733; /* Change color on hover */
+}
+
+/* Removed the .container class from here as inline styles are applied directly in about.html */
+
+/* Removed the .form-group styles from here as they are not changed */
+
+/* Removed the .bubble styles from here as they are not changed */
+
+/* Removed the @keyframes rise styles from here as they are not changed */
+
+/* Removed the span styles from here as they are not changed */
+
+/* Removed the @keyframes pulse styles from here as they are not changed */
+
+/* Removed the span:nth-child(odd) styles from here as they are not changed */
+
+/* Removed the span:nth-child(even) styles from here as they are not changed */
+
+/* Removed the span:nth-child(3n) styles from here as they are not changed */
+
+/* Removed the span:nth-child(4n) styles from here as they are not changed */
+
+/* Removed the .hexagon styles from here as they are not changed */
+
+/* Removed the .container:hover .hexagon styles from here as they are not changed */
+
+/* Removed the @keyframes spread styles from here as they are not changed */

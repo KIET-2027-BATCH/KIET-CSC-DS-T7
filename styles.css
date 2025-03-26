@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#chart {
+    margin-top: 20px;
+}
+
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+nav {
+    display: flex; /* Align navigation links in a row */
+    justify-content: center; /* Center the navigation links */
+    background-color: rgba(255, 255, 255, 0.8); /* Background for nav */
+    padding: 10px; /* Padding around nav */
+    border-radius: 10px; /* Rounded corners */
+    position: absolute; /* Position it at the top */
+    top: 20px; /* Align to the top with some space */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+nav ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margin */
+    display: flex; /* Display items in a row */
+}
+
+nav li {
+    margin: 0 15px; /* Space between links */
+}
+
+nav a {
+    text-decoration: none; /* Remove underline */
+    color: #333; /* Link color */
+    transition: color 0.3s; /* Smooth color transition */
+}
+
+nav a:hover {
+    color: #ff5733; /* Change color on hover */
+}
+
+.container {
+    max-width: 600px;
+    max-height: 80vh; /* Limit height to allow scrolling */
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
+    border-radius: 10px; /* Rounded corners */
+    text-align: center; /* Center align text */
+    overflow-y: auto; /* Allow vertical scrolling within the container */
+}
+
+/* Other styles remain unchanged */
